@@ -313,7 +313,7 @@ void Matrix::warshallAlgo(Matrix distance) {
 		mapKey = "";
 		mapKeyReverse = "";
 		//for j : = 1 to C
-		for (auto j = 0; j < candidateNumber; i++) {
+		for (auto j = 0; j < candidateNumber; j++) {
 			//if (i != j) then
 			if (i != j) {
 				mapKey = intToID[i] + intToID[j];
